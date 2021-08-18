@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*cards*/
+body, html {
+	 font-family: 'Vollkorn', serif;
+	 font-weight: 400;
+	 line-height: 1.3;
+	 font-size: 16px;
+	 width: 78%;
+	 align-items: center;
+	 margin:150px;
+	 margin-top: 0%;
+	 margin-bottom: 0%;
+	
+
+}
+ .siteTitle {
+	 display: block;
+	 font-weight: 900;
+	 font-size: 30px;
+	 margin: 20px 0;
+}
+ @media (min-width: 768px) {
+	 .siteTitle {
+		 font-size: 60px;
+	}
+}
+ header, main, footer {
+	 max-width: 960px;
+	 margin: 0 auto;
+}
+ .card {
+	 height: 400px;
+	 position: relative;
+	 padding: 20px;
+	 box-sizing: border-box;
+	 display: flex;
+	 align-items: flex-end;
+	 text-decoration: none;
+	 border: 4px solid #b0215e;
+	 margin-bottom: 20px;
+	 background-size: cover;
+}
+ @media (min-width: 768px) {
+	 .card {
+		 height: 500px;
+	}
+}
+ .inner {
+	 height: 50%;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+	 background: white;
+	 box-sizing: border-box;
+	 padding: 40px;
+}
+ @media (min-width: 768px) {
+	 .inner {
+		 width: 50%;
+		 height: 100%;
+	}
+}
+ .name {
+	 font-size: 24px;
+	 color: black;
+	 text-align: center;
+	 font-weight: 700;
+	 color: #2b2a2a;
+	 text-shadow: 0px 2px 2px #a6f8d5;
+	 position: relative;
+	 margin: 0 0 20px 0;
+}
+.type{
+	font-size: 20px;
+	 color: black;
+	 text-align: center;
+	 font-weight: 700;
+	 color: #2b2a2a;
+	 position: relative;
+	 margin: 0 0 20px 0;
+}
+.description{
+	font-size: 16px;
+	 color: black;
+	 text-align: center;
+	 font-weight: 200;
+	 color: #2b2a2a;
+	 position: relative;
+	 margin: 0 0 20px 0;
+}
+ @media (min-width: 768px) {
+	 .name {
+		 font-size: 30px;
+	}
+}
+ .date {
+	 color: #b0215e;
+	 text-align: center;
+}
+ .card2 {
+	 background-image: url('https://images.unsplash.com/photo-1496317556649-f930d733eea3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+}
+ .card3 {
+	 background-image: url('https://images.unsplash.com/photo-1557576842-3bc6093a5085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+}
+ footer {
+	 display: flex;
+	 justify-content: center;
+	 margin: 40px 0;
+}
+ .footerLink {
+	 margin-right: 12px;
+	 color: #181818;
+	 text-decoration: none;
+	 position: relative;
+}
+ .footerLink:after {
+	 content: "";
+	 position: absolute;
+	 width: 100%;
+	 height: 4px;
+	/left: 0;
+	 bottom: 0;
+}
+ .footerLink:last-child {
+	 margin-right: 0;
+}
+ 
